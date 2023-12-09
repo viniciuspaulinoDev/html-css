@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cs.ico" type="image/x-icon">
+    <title>Links</title>
+</head>
+<body>
+    <!--o target="_blank serve para abrir o link em outra guia sem sobrescrever a sua página"-->
+    <!--quando voce vai abrir um link que nao é seu é recomendado usar o  tanget e o rel-->
+    <h1>Usando links externos!</h1>
+    <p>você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+    
+    <h1>Usando links internos!</h1>
+    <h2>Essa é a minha página principal do site</h2>
+    <p>clique <a href="pag002.html" rel="next">aqui</a> para ir para a segunda página.</p>
+
+    <h1>Usando o nofollow</h1>
+    <!--com o nofollow voce esta dizendo ao mecanismo de busca que não da um aval para esse conteúdo-->
+    <p>Confira um dos nossos patrocinadores o <a href="https://gustavoguanabara.github.io/" target="_blank" rel="nofollow">GitHub</a></p>
+
+    <h1>Página de notícias</h1>
+    <!--target="_self" diz que é para abrir o link na mesma guia-->
+    <p>Clique <a href="noticias/pag003.html" target="_self" rel="next">aqui</a> para acompanhar as notícias do momento.</p>
+    <!--(../'index.html') diz que o arquivo esta na pasta anterior-->
+    <!--(./'index.html') diz que o aquivo esta na mesma página-->
+
+    <h1>Links para download</h1>
+    <ul type="square">
+        <li><a href="./livro/revfrancesa.pdf" download="revfrancesa.pdf" type="application/pdf" target="_blank" rel="next">Revolução francesa em pdf.</a></li>
+        <li><a href="./livro/revfrancesa.rar" download="revfrancesa.rar" type="application/vnd.rar">Revoluçã francesa, aquivo compactado em .rar</a></li>
+    </ul>
+</body>
+</html>

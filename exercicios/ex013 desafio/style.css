@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: auto;
+    background-color: bisque;
+    padding: 0px 10px 20px 25px;
+    width: 420px;
+}
+main > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-size: 2em;
+}
+main > a{
+    padding: 0px;
+    margin: 0px;
+}
+.playlist{
+    text-decoration: none;
+    background-color: rgb(253, 164, 0);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.24);
+}
+.playlist:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 139);
+}
+
+

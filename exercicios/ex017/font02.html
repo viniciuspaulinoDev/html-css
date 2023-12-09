@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'london';
+            src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/Olondona.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*Tipos de format()
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-aat(Apple Advanced
+            Typography)*/
+        }
+        @font-face {
+            font-family:'rock';
+            src: url('fonts/rock.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family:;
+        }
+        h1{
+            font-family:'rock', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'rock';
+            font-weight: normal;
+        }
+        p{
+            font-family:'london';
+            font-size: 1em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eius reprehenderit illo, dolores praesentium similique assumenda aut consequatur dicta pariatur voluptates tempora. Amet quisquam vero eaque atque voluptatum? Sunt, ipsam.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat molestiae eligendi facilis deserunt maxime odio. Asperiores molestias blanditiis in hic modi! Cum at reiciendis officia natus nihil modi aspernatur? Dolorum.</p>
+</body>
+</html>

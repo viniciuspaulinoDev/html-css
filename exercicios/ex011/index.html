@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho das imagens</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        <!--Se a resolução for menor que 750px, vai carregar a imagem p; caso a resolução seja menor que 1050px e maior que 750px, vai carregar a imagem m; E por fim, caso a resolução seja maior que 1050px, vai carregar a imagem g-->
+
+        <source media="(max-width:750px )" srcset="./imagens/foto-pnew.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="./imagens/foto-mnew.png" type="image/png">
+        <img src="./imagens/foto-gnew.png" alt="imagem g">
+
+        <!--A base é a imagem padrão(ou/ grande) que você quer carregar e vai colocando os sources na ordem de tamanho de resolução até a menor resolução que você quer atender o seu cliente.-->
+
+        <!--type="image/'formato do arquivo'"-->
+    </picture>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Educated Man - Max McFerren.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não conseguiu reprodruzir o áudio <a href="midia/Educated Man - Max McFerren.mp3">clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+
+    <!--ou você pode colocar assim:-->
+    <!--<audio src="midia/Educated Man - Max McFerren.mp3" controls autoplay loop></audio>-->
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <!--
+        <video src="midia/meu-video.mp4" width="500" controls loop></video>
+    -->
+    <h1>Lidando com videos</h1>
+        <p>Esse video está hospedado no meu próprio servidor.</p>
+
+    <!--para vários formatos de video-->
+    <video width="560" controls loop poster="midia/Captura de Tela (2).png">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+        <p><a href="midia/meu-video.mp4" target="_blank">Baixe aqui o aquivo do video MP4.</a></p>
+    </video>
+
+    <p>Inserindo vídeos do YouTube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=HRQcVBNUqAcvDXmF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
