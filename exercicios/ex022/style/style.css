@@ -6,7 +6,7 @@ body{
 div.bloco{
     display: inline-block;
     width: 300px;
-    height: 300xp;
+    height: 300px;
     border: 2px solid black;
     border-radius: 5px;
     background-color: white;
