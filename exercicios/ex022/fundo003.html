@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundo</title>
+    <style>
+        div.bloco{
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+        div#01{
+            background-position: left top;
+        }
+        div#02{
+            background-position: left center;
+        }
+        div#03{
+            background-position: right bottom;
+        }
+        div#04{
+            background-position: center center;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="bloco" id="01"></div>
+    <div class="bloco" id="02"></div>
+    <div class="bloco" id="03"></div>
+    <div class="bloco" id="04"></div>
 </body>
 </html>
