@@ -108,6 +108,8 @@ main a:hover{
 }
 main>article>img{
     width: 100%;
+    margin: auto;
+    display: block;
 }
 main>article>img.classica{
     display: block;
