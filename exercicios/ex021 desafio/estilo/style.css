@@ -108,11 +108,14 @@ main a:hover{
 }
 main>article>img{
     width: 100%;
-    margin: auto;
 }
 main>article>img.classica{
     display: block;
     max-width: 350px;
+    margin: auto;
+}
+main>article>picture>source{
+    display: block;
     margin: auto;
 }
 main > article > h1{
