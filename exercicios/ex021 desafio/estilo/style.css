@@ -24,7 +24,6 @@
 body{
     background-color: var(--cor0);
     font-family: var(--font-padrao);
-    height: 100vh;
 }
 a.externo::after{
     content: '\00A0\1f517';
@@ -108,8 +107,7 @@ main a:hover{
     text-decoration: underline;
 }
 main>article>img{
-    /*width: 100%;*/
-    background-size: cover;
+    width: 100%;
 }
 main>article>img.classica{
     display: block;
