@@ -49,6 +49,9 @@ section{
     padding-left: 50px;
     font-size: 3vw;
 }
+section>p{
+    padding-bottom: 2em;
+}
 .normal{
     background-color: white;
     color:black;
