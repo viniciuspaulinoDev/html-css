@@ -109,7 +109,7 @@ main a:hover{
 main>article>img{
     width: 100%;
 }
-main>article>img.classica{
+.classica{
     display: block;
     max-width: 350px;
     margin: auto;
