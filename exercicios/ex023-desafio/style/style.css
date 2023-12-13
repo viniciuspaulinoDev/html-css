@@ -44,8 +44,8 @@ a:hover{
 section{
     font-family:var(--font3);
     padding-top: 11vh;
-    padding-bottom: 11vh;
-    line-height: 2em;
+    padding-bottom: 12vh;
+    line-height: 2.2em;
     padding-left: 50px;
     font-size: 4vw;
 }
