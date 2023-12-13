@@ -43,11 +43,11 @@ a:hover{
 }
 section{
     font-family:var(--font3);
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 11vh;
+    padding-bottom: 11vh;
     line-height: 2em;
     padding-left: 50px;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 section>p{
     padding-bottom: 2em;
