@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off"><!--'autocomplete=off' para não aparecer as sugestões de preenchimento-->
+
+        <!--'method=get' você pode usar quando o conteúdo que será colocado no input não seja sensivel-->
+        <!--'method=post' usa quando envolver dados sensíveis, envios de arquivos e mais de 3000 caracteris-->
+        
+        <!--para enviar o formulário basta colocar o 'action', que é a linguagem que vai ser usada para trabalhar com os dados fornecidos pelo formulário, e o input submit, que é o botão de enviar.-->
+
+        <!--o label serve para criar uma ligação entre a expecificação do input e o próprio input.-->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
