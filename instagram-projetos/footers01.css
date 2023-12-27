@@ -1,0 +1,41 @@
+body{
+    background: #f8f9fb;
+    font-family: "Poppins";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 20px;
+    background: #0a1535;
+    color: #f9f9f9;
+}
+
+footer article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 50px 40px;
+    margin: -99px 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #773ecb, #2663ff);
+}
+
+footer article h2{
+    color: rgb(255, 255, 255 / 70% );
+}
+
+footer article button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
