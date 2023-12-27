@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+body{
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #000000;
+}
+
+html, body{
+    height: 100%;
+}
+
+button{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.pager{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pager button{
+    flex: 0 0 42px;
+    height: 42px;
+    padding: 6px;
+    transition: 0.4s;
+}
+
+.pager button span{
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    background: #383142;
+    transition: 0.4s;
+}
+
+.pager button:focus{
+    flex: 0 0 80px;
+}
+
+.pager button:focus span{
+    background: #8f44fd;
+}
