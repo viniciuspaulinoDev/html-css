@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    display: grid;
+    font-family: arial;
+    height: 100vh;
+    background: url("https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+a{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+a:hover{
+    color: rgb(122, 0, 0);
+    text-decoration: underline;
+}
+ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    opacity: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+    transition: 0.3s;
+}
+ul li{
+    text-align: center;
+}
+.burger{
+    position: fixed;
+    z-index: 2;
+    display: grid;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2311/2311531.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 0.175s;
+    border-radius: 50%;
+    background-color: white;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    transition: 0.3s;
+}
+
+.menu > div{
+    background: #030108;
+    translate: -100% 0;
+    transition: 0.2s ease-in-out;
+}
+body.open .buger{
+    background-image: url("https://logowik.com/content/uploads/images/close1437.jpg");
+}
+body.open .menu ul{
+    opacity: 1;
+}
+body.open .menu > div{
+    translate: 0;
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+        translate: 0 20px;
+    }
+    100%{
+        opacity: 1;
+        translate: 0;
+    }
+}
+
+body.open .menu ul li{
+    animation: appear 0.4s both;
+}
