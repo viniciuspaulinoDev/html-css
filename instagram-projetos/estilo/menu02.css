@@ -25,7 +25,7 @@
     left: -10%;
     width: 120%;
     height: 120%;
-    background-image: url("https://img.freepik.com/vetores-gratis/vetor-de-fundo-de-padrao-geometrico-branco-e-dourado_53876-140726.jpg");
+    background-image: url("https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg");
     background-size: cover;
     background-position: 80%;
 }
@@ -41,6 +41,7 @@
     opacity: 0;
     visibility: hidden;
 }
+/*----------------------------*/
 .menu nav:hover a{
     opacity: 0.25;
 }
@@ -75,6 +76,7 @@
     transform-origin: 0% 50%;
     transition: 0.4s;
 }
+/*----------------------------------*/
 @keyframes appear{
     0%{
         opacity: 0;
