@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/menu02.css">
+</head>
+<body>
+    <div class="background"></div>
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="menu">
+        <nav>
+            <a href="#" style="animation-delay: 0.1s;">About</a>
+            <a href="#" style="animation-delay: 0.2s;">Portifolio</a>
+        </nav>
+    </div>
+    <script type="text/javascript">
+        const toggleMenu = () => {
+            document.body.classList.toggle("open");
+        };
+    </script>
+</body>
+</html>
